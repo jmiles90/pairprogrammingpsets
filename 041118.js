@@ -1,0 +1,280 @@
+console.log('Section 1');
+console.log('---------------------------------------1');
+
+// Pair program with your partner to solve these problem sets!
+// Drivers type in the code as directed by the Navigator.
+// Navigators, try not to dictate the code verbatim, instead
+// use conceptual/technical language to describe your solution.
+
+// 1. Write a function that returns its argument plus two.
+
+function addTwo(argument) {
+	//ENTER YOUR CODE HERE
+}
+
+// console.log(addTwo(2)===4);
+// console.log(addTwo(-2)===0);
+// console.log(addTwo(1.5)===3.5);
+///
+
+console.log('---------------------------------------2');
+////////////////////////////////////////////////////////////////
+// 2. Write a function that returns a boolean stating if the argument is greater than 10.
+function isGreaterThanTen(argument) {
+  ///ENTER YOUR CODE HERE
+}
+
+// console.log(isGreaterThanTen(101) === 5);
+// console.log(isGreaterThanTen(4) === 3);
+// console.log(isGreaterThanTen(10) === 10);
+
+console.log('---------------------------------------3');
+//////////////////////////////////////////////////////////////
+//3. Write a method that returns the greater of the two arguments.
+// Assume that both arguments are integers.
+function whichIsGreater(argument1, argument2) {
+///ENTER YOUR CODE
+}
+
+// console.log(whichIsGreater(15, 9) === 15);
+// console.log(whichIsGreater(10, 8) === 10);
+// console.log(whichIsGreater(99, 100) === 100);
+
+console.log('---------------------------------------4');
+
+//4. Write a method that returns the negative value of the argument.
+// Assume that the argument will be a positive number.
+function returnNegative(argument) {
+  
+
+}
+// console.log(returnNegative(15) === -15);
+// console.log(returnNegative(1) === -1);
+// console.log(returnNegative(55)) === -55);
+
+console.log('---------------------------------------5');
+
+// 5. Write a function that returns the remainder of it's arguments.
+
+function returnNegative(argument1,argument2) {
+	//ENTER YOUR CODE HERE
+}
+
+console.log(returnNegative(25,5) === 0);
+console.log(returnNegative(8,3) === 2);
+console.log(returnNegative(33,5) === 3);
+
+console.log('---------------------------------------');
+
+console.log('Section 2'); // MEDIUM
+
+console.log('---------------------------------------6');
+
+// 6. Write a method that returns the last digit of its argument.
+// Assume the argument is an integer.
+// HINT: What is the return value of 142 % 10? How about 2 % 10?
+
+function returnLastInteger(argument) {
+	//ENTER YOUR CODE HERE
+}
+
+// console.log(returnLastInteger(1234) === 4);
+// console.log(returnLastInteger(500000001) === 1);
+// console.log(returnLastInteger(999999999999) === 9);
+
+console.log('---------------------------------------7');
+
+// 7. Write a method that returns a boolean indicating whether
+// the last digit of the method's argument is odd.
+// Assume the argument is an integer.
+// Bonus points if you use last_digit as a helper method.
+function isLastNumberOdd(argument) {
+	//ENTER YOUR CODE HERE
+}
+
+// console.log(isLastNumberOdd(1234) === false);
+// console.log(isLastNumberOdd(123) === true);
+// console.log(isLastNumberOdd(99999) === true);
+
+console.log('---------------------------------------8');
+console.log('console.log() your result for this question');
+// 8. Create a method that makes a triangle with "n" amount of rows.
+// n will be the argument passed through the function.
+// makeTriangle(5) => *
+//                    **
+//                    ***
+//                    ****
+//                    *****
+
+function makeTriangle(n) {
+	//Enter Code Here
+}
+
+makeTriangle(9);
+// should return
+//*
+//**
+//***
+//****
+//*****
+//******
+//*******
+//********
+//*********
+console.log('---------------------------------------9');
+
+// 9.Make a function that returns to the second decimal place after dividing.
+
+
+function twoDecimalPlaces(dividend, divisor) {
+//Enter Your Code Here
+  
+}
+// console.log(twoDecimalPlaces(8, 7).toString() === 1.14.toString());
+// console.log(twoDecimalPlaces(11, 12).toString() === 0.92.toString());
+// console.log(twoDecimalPlaces(1123412341234, 22).toString() === 51064197328.82.toString());
+
+console.log('---------------------------------------10');
+
+// 10.Make a function that returns the argument with all lowercase letters.
+
+function allLowerCase(argument) {
+	//Enter Code Here
+}
+
+// console.log(allLowerCase('BaNaNa') === 'banana');
+// console.log(allLowerCase('heLOOO') === 'helooo');
+// console.log(allLowerCase('Avatar') === 'avatar');
+
+console.log('---------------------------------------');
+
+console.log('HARD');
+console.log('---------------------------------------11');
+
+// 11.Make a function that returns the argument with all its uppercase characters removed.
+function removeUpperCase(argument) {
+	//Enter Code Here
+}
+
+// console.log(removeUpperCase('Avatar') === 'vatar');
+// console.log(removeUpperCase('BaNaNa') === 'aaa');
+// console.log(removeUpperCase('heLOOO') === 'he');
+
+console.log('---------------------------------------12');
+
+// 12. Write a method that returns the last n digits of its first argument,
+//  where n is the second argument.
+//  Assume both arguments are non-zero integers.
+//  (Input)     =>      (Output)
+//  nDigits(1234, 2) => 34
+//  nDigits(54321, 4) => 4321
+//  nDigits(9752, 1) => 2
+
+// # HINT: What is the return value of 1234 % 100? How about 4 % 100?
+function nDigits(argument1, argument2) {
+	//ENTER YOUR CODE HERE
+}
+
+// console.log(nDigits(1234, 2) === 34);
+// console.log(nDigits(567235, 4) === 7235);
+// console.log(nDigits(999999999, 9) === 999999999);
+
+console.log('---------------------------------------13');
+
+//13. Write a method that returns the sum of digit passed into argument.
+// sumOfDigits(123) => 6;
+// sumOfDigits(111) => 3;
+// sumOfDigits(900) => 9;
+
+function sumOfDigits(num) {
+	//Enter Code Here
+}
+
+// console.log(sumOfDigits(1234) === 10);
+// console.log(sumOfDigits(900) === 9);
+// console.log(sumOfDigits(54321) === 15);
+
+console.log('---------------------------------------14');
+
+// 14.Write a method that returns the greatest common divisor of two numbers
+function greatestDivisor(argument1, argument2) {
+	//Enter code here
+}
+
+// console.log(greatestDivisor(12, 18) === 6);
+// console.log(greatestDivisor(24, 48) === 24);
+// console.log(greatestDivisor(100, 250) === 50);
+
+console.log('---------------------------------------15');
+//15. Return an array of integers from 1 to n, except for each multiple of 3 replace the integer with "fizz", for each multiple of 5 replace the integer with "buzz", and for each multiple of both 3 and 5, replace the integer with "fizzbuzz".
+
+function fizzbuzz(n) {
+	//Enter Code here
+}
+
+// console.log(
+// 	JSON.stringify(fizzbuzz(15)) ===
+// 		JSON.stringify([
+// 			1,
+// 			2,
+// 			'fizz',
+// 			4,
+// 			'buzz',
+// 			'fizz',
+// 			7,
+// 			8,
+// 			'fizz',
+// 			'buzz',
+// 			11,
+// 			'fizz',
+// 			13,
+// 			14,
+// 			'fizzbuzz',
+// 		])
+// );
+// console.log(
+// 	JSON.stringify(fizzbuzz(35)) ===
+// 		JSON.stringify([
+// 			1,
+// 			2,
+// 			'fizz',
+// 			4,
+// 			'buzz',
+// 			'fizz',
+// 			7,
+// 			8,
+// 			'fizz',
+// 			'buzz',
+// 			11,
+// 			'fizz',
+// 			13,
+// 			14,
+// 			'fizzbuzz',
+// 			16,
+// 			17,
+// 			'fizz',
+// 			19,
+// 			'buzz',
+// 			'fizz',
+// 			22,
+// 			23,
+// 			'fizz',
+// 			'buzz',
+// 			26,
+// 			'fizz',
+// 			28,
+// 			29,
+// 			'fizzbuzz',
+// 			31,
+// 			32,
+// 			'fizz',
+// 			34,
+// 			'buzz',
+// 		])
+// );
+// console.log(
+// 	JSON.stringify(fizzbuzz(10)) ===
+// 		JSON.stringify([1, 2, 'fizz', 4, 'buzz', 'fizz', 7, 8, 'fizz', 'buzz'])
+// );
+
+////////////////////////////////////////////////
