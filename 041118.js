@@ -96,33 +96,18 @@ function sumMultiplyAndRound(num1, num2, num3) {
 // console.log(sumMultiplyAndRound(1.5, 3.9, 5.2) === 26)
 
 console.log('---------------------------------------8');
-// 8. Create a method that makes a triangle with "n" amount of rows.
-// n will be the argument passed through the function.
-// makeTriangle(5) => *
-//                    **
-//                    ***
-//                    ****
-//                    *****
 
-function makeTriangle(n) {
+// 8. Create a function to fill the empty array with numbers from 0 to 10.
+
+function fillMe() {
     //Enter Code Here
 }
 
-makeTriangle(9);
-// should return
-//*
-//**
-//***
-//****
-//*****
-//******
-//*******
-//********
-//*********
+// console.log(JSON.stringify(fillMe()) === JSON.stringify([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+
 console.log('---------------------------------------9');
 
 // 9.Make a function that returns to the second decimal place after dividing.
-
 
 function twoDecimalPlaces(dividend, divisor) {
     //Enter Your Code Here
@@ -134,15 +119,18 @@ function twoDecimalPlaces(dividend, divisor) {
 
 console.log('---------------------------------------10');
 
-// 10.Make a function that returns the argument with all lowercase letters.
+// 10. Create the function isPrime(num) which will take the num parameter being passed 
+// and return true if the parameter is a prime number, otherwise return false.
 
-function allLowerCase(argument) {
+// Note: A prime number is any number that can only be evenly divided by 1 or itself
+
+function isPrime(num) {
     //Enter Code Here
 }
 
-// console.log(allLowerCase('BaNaNa') === 'banana');
-// console.log(allLowerCase('heLOOO') === 'helooo');
-// console.log(allLowerCase('Avatar') === 'avatar');
+// console.log(isPrime(17) === true);
+// console.log(isPrime(108) === false);
+// console.log(isPrime(1117) === true);
 
 console.log('---------------------------------------');
 
