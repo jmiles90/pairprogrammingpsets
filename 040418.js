@@ -22,7 +22,7 @@ console.log('---------------------------------------2');
 // 2. Write a method that returns its argument rounded to the nearest integer.
 function roundToNearest(argument) {
 }
-
+""
 // console.log(roundToNearest(4.5) === 5);
 // console.log(roundToNearest(3.3) === 3);
 // console.log(roundToNearest(9.9) === 10);
